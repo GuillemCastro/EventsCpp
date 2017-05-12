@@ -1,0 +1,3 @@
+/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir
