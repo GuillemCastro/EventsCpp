@@ -177,59 +177,140 @@ Data.cpp.s:
 	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Data.cpp.s
 .PHONY : Data.cpp.s
 
-ParachuteFiredEvent.o: ParachuteFiredEvent.cpp.o
+Events/Event.o: Events/Event.cpp.o
 
-.PHONY : ParachuteFiredEvent.o
-
-# target to build an object file
-ParachuteFiredEvent.cpp.o:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o
-.PHONY : ParachuteFiredEvent.cpp.o
-
-ParachuteFiredEvent.i: ParachuteFiredEvent.cpp.i
-
-.PHONY : ParachuteFiredEvent.i
-
-# target to preprocess a source file
-ParachuteFiredEvent.cpp.i:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.i
-.PHONY : ParachuteFiredEvent.cpp.i
-
-ParachuteFiredEvent.s: ParachuteFiredEvent.cpp.s
-
-.PHONY : ParachuteFiredEvent.s
-
-# target to generate assembly for a file
-ParachuteFiredEvent.cpp.s:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.s
-.PHONY : ParachuteFiredEvent.cpp.s
-
-ParachuteFiredEventObserver.o: ParachuteFiredEventObserver.cpp.o
-
-.PHONY : ParachuteFiredEventObserver.o
+.PHONY : Events/Event.o
 
 # target to build an object file
-ParachuteFiredEventObserver.cpp.o:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o
-.PHONY : ParachuteFiredEventObserver.cpp.o
+Events/Event.cpp.o:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/Event.cpp.o
+.PHONY : Events/Event.cpp.o
 
-ParachuteFiredEventObserver.i: ParachuteFiredEventObserver.cpp.i
+Events/Event.i: Events/Event.cpp.i
 
-.PHONY : ParachuteFiredEventObserver.i
+.PHONY : Events/Event.i
 
 # target to preprocess a source file
-ParachuteFiredEventObserver.cpp.i:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.i
-.PHONY : ParachuteFiredEventObserver.cpp.i
+Events/Event.cpp.i:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/Event.cpp.i
+.PHONY : Events/Event.cpp.i
 
-ParachuteFiredEventObserver.s: ParachuteFiredEventObserver.cpp.s
+Events/Event.s: Events/Event.cpp.s
 
-.PHONY : ParachuteFiredEventObserver.s
+.PHONY : Events/Event.s
 
 # target to generate assembly for a file
-ParachuteFiredEventObserver.cpp.s:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.s
-.PHONY : ParachuteFiredEventObserver.cpp.s
+Events/Event.cpp.s:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/Event.cpp.s
+.PHONY : Events/Event.cpp.s
+
+Events/ParachuteFiredEvent.o: Events/ParachuteFiredEvent.cpp.o
+
+.PHONY : Events/ParachuteFiredEvent.o
+
+# target to build an object file
+Events/ParachuteFiredEvent.cpp.o:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o
+.PHONY : Events/ParachuteFiredEvent.cpp.o
+
+Events/ParachuteFiredEvent.i: Events/ParachuteFiredEvent.cpp.i
+
+.PHONY : Events/ParachuteFiredEvent.i
+
+# target to preprocess a source file
+Events/ParachuteFiredEvent.cpp.i:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.i
+.PHONY : Events/ParachuteFiredEvent.cpp.i
+
+Events/ParachuteFiredEvent.s: Events/ParachuteFiredEvent.cpp.s
+
+.PHONY : Events/ParachuteFiredEvent.s
+
+# target to generate assembly for a file
+Events/ParachuteFiredEvent.cpp.s:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.s
+.PHONY : Events/ParachuteFiredEvent.cpp.s
+
+Events/SensorReadEvent.o: Events/SensorReadEvent.cpp.o
+
+.PHONY : Events/SensorReadEvent.o
+
+# target to build an object file
+Events/SensorReadEvent.cpp.o:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o
+.PHONY : Events/SensorReadEvent.cpp.o
+
+Events/SensorReadEvent.i: Events/SensorReadEvent.cpp.i
+
+.PHONY : Events/SensorReadEvent.i
+
+# target to preprocess a source file
+Events/SensorReadEvent.cpp.i:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.i
+.PHONY : Events/SensorReadEvent.cpp.i
+
+Events/SensorReadEvent.s: Events/SensorReadEvent.cpp.s
+
+.PHONY : Events/SensorReadEvent.s
+
+# target to generate assembly for a file
+Events/SensorReadEvent.cpp.s:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.s
+.PHONY : Events/SensorReadEvent.cpp.s
+
+Observers/Observer.o: Observers/Observer.cpp.o
+
+.PHONY : Observers/Observer.o
+
+# target to build an object file
+Observers/Observer.cpp.o:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o
+.PHONY : Observers/Observer.cpp.o
+
+Observers/Observer.i: Observers/Observer.cpp.i
+
+.PHONY : Observers/Observer.i
+
+# target to preprocess a source file
+Observers/Observer.cpp.i:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/Observer.cpp.i
+.PHONY : Observers/Observer.cpp.i
+
+Observers/Observer.s: Observers/Observer.cpp.s
+
+.PHONY : Observers/Observer.s
+
+# target to generate assembly for a file
+Observers/Observer.cpp.s:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/Observer.cpp.s
+.PHONY : Observers/Observer.cpp.s
+
+Observers/ObserverBase.o: Observers/ObserverBase.cpp.o
+
+.PHONY : Observers/ObserverBase.o
+
+# target to build an object file
+Observers/ObserverBase.cpp.o:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o
+.PHONY : Observers/ObserverBase.cpp.o
+
+Observers/ObserverBase.i: Observers/ObserverBase.cpp.i
+
+.PHONY : Observers/ObserverBase.i
+
+# target to preprocess a source file
+Observers/ObserverBase.cpp.i:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.i
+.PHONY : Observers/ObserverBase.cpp.i
+
+Observers/ObserverBase.s: Observers/ObserverBase.cpp.s
+
+.PHONY : Observers/ObserverBase.s
+
+# target to generate assembly for a file
+Observers/ObserverBase.cpp.s:
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.s
+.PHONY : Observers/ObserverBase.cpp.s
 
 Rocket.o: Rocket.cpp.o
 
@@ -285,60 +366,6 @@ Sensor.cpp.s:
 	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Sensor.cpp.s
 .PHONY : Sensor.cpp.s
 
-SensorReadEvent.o: SensorReadEvent.cpp.o
-
-.PHONY : SensorReadEvent.o
-
-# target to build an object file
-SensorReadEvent.cpp.o:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o
-.PHONY : SensorReadEvent.cpp.o
-
-SensorReadEvent.i: SensorReadEvent.cpp.i
-
-.PHONY : SensorReadEvent.i
-
-# target to preprocess a source file
-SensorReadEvent.cpp.i:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.i
-.PHONY : SensorReadEvent.cpp.i
-
-SensorReadEvent.s: SensorReadEvent.cpp.s
-
-.PHONY : SensorReadEvent.s
-
-# target to generate assembly for a file
-SensorReadEvent.cpp.s:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.s
-.PHONY : SensorReadEvent.cpp.s
-
-SensorReadEventObserver.o: SensorReadEventObserver.cpp.o
-
-.PHONY : SensorReadEventObserver.o
-
-# target to build an object file
-SensorReadEventObserver.cpp.o:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o
-.PHONY : SensorReadEventObserver.cpp.o
-
-SensorReadEventObserver.i: SensorReadEventObserver.cpp.i
-
-.PHONY : SensorReadEventObserver.i
-
-# target to preprocess a source file
-SensorReadEventObserver.cpp.i:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.i
-.PHONY : SensorReadEventObserver.cpp.i
-
-SensorReadEventObserver.s: SensorReadEventObserver.cpp.s
-
-.PHONY : SensorReadEventObserver.s
-
-# target to generate assembly for a file
-SensorReadEventObserver.cpp.s:
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.s
-.PHONY : SensorReadEventObserver.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -381,24 +408,27 @@ help:
 	@echo "... Data.o"
 	@echo "... Data.i"
 	@echo "... Data.s"
-	@echo "... ParachuteFiredEvent.o"
-	@echo "... ParachuteFiredEvent.i"
-	@echo "... ParachuteFiredEvent.s"
-	@echo "... ParachuteFiredEventObserver.o"
-	@echo "... ParachuteFiredEventObserver.i"
-	@echo "... ParachuteFiredEventObserver.s"
+	@echo "... Events/Event.o"
+	@echo "... Events/Event.i"
+	@echo "... Events/Event.s"
+	@echo "... Events/ParachuteFiredEvent.o"
+	@echo "... Events/ParachuteFiredEvent.i"
+	@echo "... Events/ParachuteFiredEvent.s"
+	@echo "... Events/SensorReadEvent.o"
+	@echo "... Events/SensorReadEvent.i"
+	@echo "... Events/SensorReadEvent.s"
+	@echo "... Observers/Observer.o"
+	@echo "... Observers/Observer.i"
+	@echo "... Observers/Observer.s"
+	@echo "... Observers/ObserverBase.o"
+	@echo "... Observers/ObserverBase.i"
+	@echo "... Observers/ObserverBase.s"
 	@echo "... Rocket.o"
 	@echo "... Rocket.i"
 	@echo "... Rocket.s"
 	@echo "... Sensor.o"
 	@echo "... Sensor.i"
 	@echo "... Sensor.s"
-	@echo "... SensorReadEvent.o"
-	@echo "... SensorReadEvent.i"
-	@echo "... SensorReadEvent.s"
-	@echo "... SensorReadEventObserver.o"
-	@echo "... SensorReadEventObserver.i"
-	@echo "... SensorReadEventObserver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -3,9 +3,10 @@
 //
 
 #include <zconf.h>
+#include <iostream>
 #include "Sensor.h"
 #include "Data.h"
-#include "SensorReadEvent.h"
+#include "Events/SensorReadEvent.h"
 
 void Sensor::run() {
     for (int i = 0; i < 10; ++i) {

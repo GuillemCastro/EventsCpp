@@ -6,12 +6,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/guillemcastro/Documents/Github/EventsC++/Application.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Application.cpp.o"
   "/Users/guillemcastro/Documents/Github/EventsC++/Data.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Data.cpp.o"
-  "/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o"
-  "/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o"
+  "/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Events/Event.cpp.o"
+  "/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o"
+  "/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o"
+  "/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o"
+  "/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o"
   "/Users/guillemcastro/Documents/Github/EventsC++/Rocket.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Rocket.cpp.o"
   "/Users/guillemcastro/Documents/Github/EventsC++/Sensor.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/Sensor.cpp.o"
-  "/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o"
-  "/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o"
   "/Users/guillemcastro/Documents/Github/EventsC++/main.cpp" "/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles/EventsC__.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -17,8 +17,10 @@ Sensor.h
 /Users/guillemcastro/Documents/Github/EventsC++/Sensor.h
 
 /Users/guillemcastro/Documents/Github/EventsC++/Application.h
-ParachuteFiredEventObserver.h
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.h
+Observers/Observer.h
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.h
+Events/ParachuteFiredEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.h
 
 /Users/guillemcastro/Documents/Github/EventsC++/Data.cpp
 Data.h
@@ -28,23 +30,61 @@ Data.h
 string
 -
 
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.cpp
-ParachuteFiredEvent.h
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.cpp
+Event.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.h
 
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.h
+../Observers/ObserverBase.h
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.h
+vector
+-
+string
+-
+unordered_map
+-
+iostream
+-
+
+/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.cpp
+ParachuteFiredEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.h
+
+/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.h
 vector
 -
 Event.h
-/Users/guillemcastro/Documents/Github/EventsC++/Event.h
-ParachuteFiredEventObserver.h
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.h
+../Observers/Observer.h
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.h
 
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.cpp
-ParachuteFiredEventObserver.h
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.cpp
+SensorReadEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.h
 
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.h
+vector
+-
+../Data.h
+/Users/guillemcastro/Documents/Github/EventsC++/Data.h
+Event.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.h
+../Observers/Observer.h
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.h
+
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.cpp
+Observer.h
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.h
+
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.h
+ObserverBase.h
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.h
+
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.cpp
+ObserverBase.h
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.h
+
+/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.h
 
 /Users/guillemcastro/Documents/Github/EventsC++/Rocket.cpp
 iostream
@@ -53,44 +93,26 @@ Rocket.h
 /Users/guillemcastro/Documents/Github/EventsC++/Rocket.h
 
 /Users/guillemcastro/Documents/Github/EventsC++/Rocket.h
-SensorReadEventObserver.h
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.h
 Data.h
 /Users/guillemcastro/Documents/Github/EventsC++/Data.h
-SensorReadEvent.h
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.h
-ParachuteFiredEvent.h
-/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.h
+Events/SensorReadEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.h
+Events/ParachuteFiredEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.h
 
 /Users/guillemcastro/Documents/Github/EventsC++/Sensor.cpp
 zconf.h
+-
+iostream
 -
 Sensor.h
 /Users/guillemcastro/Documents/Github/EventsC++/Sensor.h
 Data.h
 /Users/guillemcastro/Documents/Github/EventsC++/Data.h
-SensorReadEvent.h
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.h
+Events/SensorReadEvent.h
+/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.h
 
 /Users/guillemcastro/Documents/Github/EventsC++/Sensor.h
-
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.cpp
-SensorReadEvent.h
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.h
-
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.h
-vector
--
-Data.h
-/Users/guillemcastro/Documents/Github/EventsC++/Data.h
-SensorReadEventObserver.h
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.h
-
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.cpp
-SensorReadEventObserver.h
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.h
-
-/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.h
 
 /Users/guillemcastro/Documents/Github/EventsC++/main.cpp
 iostream

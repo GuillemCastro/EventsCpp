@@ -105,52 +105,52 @@ CMakeFiles/EventsC__.dir/Application.cpp.o.provides: CMakeFiles/EventsC__.dir/Ap
 CMakeFiles/EventsC__.dir/Application.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Application.cpp.o
 
 
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o: CMakeFiles/EventsC__.dir/flags.make
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o: ../SensorReadEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.cpp
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: CMakeFiles/EventsC__.dir/flags.make
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: ../Events/SensorReadEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.cpp
 
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.cpp > CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.i
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.cpp > CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.i
 
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.cpp -o CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.s
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.cpp -o CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.s
 
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.requires:
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.requires:
 
-.PHONY : CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.requires
+.PHONY : CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.requires
 
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.provides: CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.provides.build
-.PHONY : CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.provides
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.provides: CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.provides.build
+.PHONY : CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.provides
 
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.provides.build: CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o
 
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o: CMakeFiles/EventsC__.dir/flags.make
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o: ../ParachuteFiredEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.cpp
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o: CMakeFiles/EventsC__.dir/flags.make
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o: ../Events/ParachuteFiredEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.cpp
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.cpp > CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.i
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.cpp > CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.i
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.cpp -o CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.s
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.cpp -o CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.s
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.requires:
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.requires:
 
-.PHONY : CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.requires
+.PHONY : CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.requires
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.provides: CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.provides.build
-.PHONY : CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.provides
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.provides: CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.provides.build
+.PHONY : CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.provides
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.provides.build: CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o
 
 
 CMakeFiles/EventsC__.dir/Sensor.cpp.o: CMakeFiles/EventsC__.dir/flags.make
@@ -201,33 +201,9 @@ CMakeFiles/EventsC__.dir/Rocket.cpp.o.provides: CMakeFiles/EventsC__.dir/Rocket.
 CMakeFiles/EventsC__.dir/Rocket.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Rocket.cpp.o
 
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o: CMakeFiles/EventsC__.dir/flags.make
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o: ../ParachuteFiredEventObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.cpp
-
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.cpp > CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.i
-
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.cpp -o CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.s
-
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.requires
-
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.provides: CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.provides.build
-.PHONY : CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.provides
-
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.provides.build: CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o
-
-
 CMakeFiles/EventsC__.dir/Data.cpp.o: CMakeFiles/EventsC__.dir/flags.make
 CMakeFiles/EventsC__.dir/Data.cpp.o: ../Data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EventsC__.dir/Data.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EventsC__.dir/Data.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/Data.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/Data.cpp
 
 CMakeFiles/EventsC__.dir/Data.cpp.i: cmake_force
@@ -249,57 +225,107 @@ CMakeFiles/EventsC__.dir/Data.cpp.o.provides: CMakeFiles/EventsC__.dir/Data.cpp.
 CMakeFiles/EventsC__.dir/Data.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Data.cpp.o
 
 
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o: CMakeFiles/EventsC__.dir/flags.make
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o: ../SensorReadEventObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.cpp
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o: CMakeFiles/EventsC__.dir/flags.make
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o: ../Observers/Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.cpp
 
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.cpp > CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.i
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/Observers/Observer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.cpp > CMakeFiles/EventsC__.dir/Observers/Observer.cpp.i
 
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.cpp -o CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.s
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/Observers/Observer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.cpp -o CMakeFiles/EventsC__.dir/Observers/Observer.cpp.s
 
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.requires:
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.requires:
 
-.PHONY : CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.requires
+.PHONY : CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.requires
 
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.provides: CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.provides.build
-.PHONY : CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.provides
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.provides: CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.provides.build
+.PHONY : CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.provides
 
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.provides.build: CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o
+
+
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o: CMakeFiles/EventsC__.dir/flags.make
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o: ../Events/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EventsC__.dir/Events/Event.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/Events/Event.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/Events/Event.cpp
+
+CMakeFiles/EventsC__.dir/Events/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/Events/Event.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/Events/Event.cpp > CMakeFiles/EventsC__.dir/Events/Event.cpp.i
+
+CMakeFiles/EventsC__.dir/Events/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/Events/Event.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/Events/Event.cpp -o CMakeFiles/EventsC__.dir/Events/Event.cpp.s
+
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o.requires:
+
+.PHONY : CMakeFiles/EventsC__.dir/Events/Event.cpp.o.requires
+
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o.provides: CMakeFiles/EventsC__.dir/Events/Event.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Events/Event.cpp.o.provides.build
+.PHONY : CMakeFiles/EventsC__.dir/Events/Event.cpp.o.provides
+
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Events/Event.cpp.o
+
+
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o: CMakeFiles/EventsC__.dir/flags.make
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o: ../Observers/ObserverBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o -c /Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.cpp
+
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.cpp > CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.i
+
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.cpp -o CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.s
+
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.requires:
+
+.PHONY : CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.requires
+
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.provides: CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EventsC__.dir/build.make CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.provides.build
+.PHONY : CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.provides
+
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.provides.build: CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o
 
 
 # Object files for target EventsC__
 EventsC___OBJECTS = \
 "CMakeFiles/EventsC__.dir/main.cpp.o" \
 "CMakeFiles/EventsC__.dir/Application.cpp.o" \
-"CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o" \
-"CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o" \
+"CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o" \
+"CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o" \
 "CMakeFiles/EventsC__.dir/Sensor.cpp.o" \
 "CMakeFiles/EventsC__.dir/Rocket.cpp.o" \
-"CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o" \
 "CMakeFiles/EventsC__.dir/Data.cpp.o" \
-"CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o"
+"CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o" \
+"CMakeFiles/EventsC__.dir/Events/Event.cpp.o" \
+"CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o"
 
 # External object files for target EventsC__
 EventsC___EXTERNAL_OBJECTS =
 
 EventsC__: CMakeFiles/EventsC__.dir/main.cpp.o
 EventsC__: CMakeFiles/EventsC__.dir/Application.cpp.o
-EventsC__: CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o
-EventsC__: CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o
+EventsC__: CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o
+EventsC__: CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o
 EventsC__: CMakeFiles/EventsC__.dir/Sensor.cpp.o
 EventsC__: CMakeFiles/EventsC__.dir/Rocket.cpp.o
-EventsC__: CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o
 EventsC__: CMakeFiles/EventsC__.dir/Data.cpp.o
-EventsC__: CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o
+EventsC__: CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o
+EventsC__: CMakeFiles/EventsC__.dir/Events/Event.cpp.o
+EventsC__: CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o
 EventsC__: CMakeFiles/EventsC__.dir/build.make
 EventsC__: CMakeFiles/EventsC__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable EventsC__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/guillemcastro/Documents/Github/EventsC++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable EventsC__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EventsC__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -309,13 +335,14 @@ CMakeFiles/EventsC__.dir/build: EventsC__
 
 CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/main.cpp.o.requires
 CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Application.cpp.o.requires
-CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o.requires
-CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o.requires
+CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o.requires
+CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o.requires
 CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Sensor.cpp.o.requires
 CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Rocket.cpp.o.requires
-CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o.requires
 CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Data.cpp.o.requires
-CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o.requires
+CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o.requires
+CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Events/Event.cpp.o.requires
+CMakeFiles/EventsC__.dir/requires: CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o.requires
 
 .PHONY : CMakeFiles/EventsC__.dir/requires
 

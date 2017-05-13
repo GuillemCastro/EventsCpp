@@ -4,46 +4,62 @@
 CMakeFiles/EventsC__.dir/Application.cpp.o: ../Application.cpp
 CMakeFiles/EventsC__.dir/Application.cpp.o: ../Application.h
 CMakeFiles/EventsC__.dir/Application.cpp.o: ../Data.h
-CMakeFiles/EventsC__.dir/Application.cpp.o: ../ParachuteFiredEvent.h
-CMakeFiles/EventsC__.dir/Application.cpp.o: ../ParachuteFiredEventObserver.h
+CMakeFiles/EventsC__.dir/Application.cpp.o: ../Events/Event.h
+CMakeFiles/EventsC__.dir/Application.cpp.o: ../Events/ParachuteFiredEvent.h
+CMakeFiles/EventsC__.dir/Application.cpp.o: ../Events/SensorReadEvent.h
+CMakeFiles/EventsC__.dir/Application.cpp.o: ../Observers/Observer.h
+CMakeFiles/EventsC__.dir/Application.cpp.o: ../Observers/ObserverBase.h
 CMakeFiles/EventsC__.dir/Application.cpp.o: ../Rocket.h
 CMakeFiles/EventsC__.dir/Application.cpp.o: ../Sensor.h
-CMakeFiles/EventsC__.dir/Application.cpp.o: ../SensorReadEvent.h
-CMakeFiles/EventsC__.dir/Application.cpp.o: ../SensorReadEventObserver.h
 
 CMakeFiles/EventsC__.dir/Data.cpp.o: ../Data.cpp
 CMakeFiles/EventsC__.dir/Data.cpp.o: ../Data.h
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o: ../ParachuteFiredEvent.cpp
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o: ../ParachuteFiredEvent.h
-CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o: ../ParachuteFiredEventObserver.h
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o: ../Events/Event.cpp
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o: ../Events/Event.h
+CMakeFiles/EventsC__.dir/Events/Event.cpp.o: ../Observers/ObserverBase.h
 
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o: ../ParachuteFiredEventObserver.cpp
-CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o: ../ParachuteFiredEventObserver.h
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o: ../Events/Event.h
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o: ../Events/ParachuteFiredEvent.cpp
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o: ../Events/ParachuteFiredEvent.h
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o: ../Observers/Observer.h
+CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o: ../Observers/ObserverBase.h
+
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: ../Data.h
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: ../Events/Event.h
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: ../Events/SensorReadEvent.cpp
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: ../Events/SensorReadEvent.h
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: ../Observers/Observer.h
+CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o: ../Observers/ObserverBase.h
+
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o: ../Observers/Observer.cpp
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o: ../Observers/Observer.h
+CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o: ../Observers/ObserverBase.h
+
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o: ../Observers/ObserverBase.cpp
+CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o: ../Observers/ObserverBase.h
 
 CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Data.h
-CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../ParachuteFiredEvent.h
-CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../ParachuteFiredEventObserver.h
+CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Events/Event.h
+CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Events/ParachuteFiredEvent.h
+CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Events/SensorReadEvent.h
+CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Observers/Observer.h
+CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Observers/ObserverBase.h
 CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Rocket.cpp
 CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../Rocket.h
-CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../SensorReadEvent.h
-CMakeFiles/EventsC__.dir/Rocket.cpp.o: ../SensorReadEventObserver.h
 
 CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../Data.h
+CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../Events/Event.h
+CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../Events/SensorReadEvent.h
+CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../Observers/Observer.h
+CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../Observers/ObserverBase.h
 CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../Sensor.cpp
 CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../Sensor.h
-CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../SensorReadEvent.h
-CMakeFiles/EventsC__.dir/Sensor.cpp.o: ../SensorReadEventObserver.h
-
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o: ../Data.h
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o: ../SensorReadEvent.cpp
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o: ../SensorReadEvent.h
-CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o: ../SensorReadEventObserver.h
-
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o: ../SensorReadEventObserver.cpp
-CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o: ../SensorReadEventObserver.h
 
 CMakeFiles/EventsC__.dir/main.cpp.o: ../Application.h
-CMakeFiles/EventsC__.dir/main.cpp.o: ../ParachuteFiredEventObserver.h
+CMakeFiles/EventsC__.dir/main.cpp.o: ../Events/Event.h
+CMakeFiles/EventsC__.dir/main.cpp.o: ../Events/ParachuteFiredEvent.h
+CMakeFiles/EventsC__.dir/main.cpp.o: ../Observers/Observer.h
+CMakeFiles/EventsC__.dir/main.cpp.o: ../Observers/ObserverBase.h
 CMakeFiles/EventsC__.dir/main.cpp.o: ../main.cpp
 

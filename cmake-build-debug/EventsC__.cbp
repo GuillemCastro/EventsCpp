@@ -94,16 +94,34 @@
 		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Data.h">
 			<Option target="EventsC__"/>
 		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.cpp">
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.cpp">
 			<Option target="EventsC__"/>
 		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEvent.h">
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Events/Event.h">
 			<Option target="EventsC__"/>
 		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.cpp">
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.cpp">
 			<Option target="EventsC__"/>
 		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/ParachuteFiredEventObserver.h">
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Events/ParachuteFiredEvent.h">
+			<Option target="EventsC__"/>
+		</Unit>
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.cpp">
+			<Option target="EventsC__"/>
+		</Unit>
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Events/SensorReadEvent.h">
+			<Option target="EventsC__"/>
+		</Unit>
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.cpp">
+			<Option target="EventsC__"/>
+		</Unit>
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Observers/Observer.h">
+			<Option target="EventsC__"/>
+		</Unit>
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.cpp">
+			<Option target="EventsC__"/>
+		</Unit>
+		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Observers/ObserverBase.h">
 			<Option target="EventsC__"/>
 		</Unit>
 		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Rocket.cpp">
@@ -116,18 +134,6 @@
 			<Option target="EventsC__"/>
 		</Unit>
 		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/Sensor.h">
-			<Option target="EventsC__"/>
-		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.cpp">
-			<Option target="EventsC__"/>
-		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEvent.h">
-			<Option target="EventsC__"/>
-		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.cpp">
-			<Option target="EventsC__"/>
-		</Unit>
-		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/SensorReadEventObserver.h">
 			<Option target="EventsC__"/>
 		</Unit>
 		<Unit filename="/Users/guillemcastro/Documents/Github/EventsC++/main.cpp">

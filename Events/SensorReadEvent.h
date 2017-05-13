@@ -7,22 +7,24 @@
 
 
 #include <vector>
-#include "Data.h"
-#include "SensorReadEventObserver.h"
+#include "../Data.h"
+#include "Event.h"
+#include "../Observers/Observer.h"
 
-
-class SensorReadEvent {
+class SensorReadEvent : public Event {
 
 public:
     SensorReadEvent(Data* data);
-    static void registerObserver(SensorReadEventObserver* observer);
+
+    static void registerObserver(Observer<SensorReadEvent>* observer);
+
     virtual void fire();
+
     Data* getData() {
         return data;
     }
 
 private:
-    static std::vector<SensorReadEventObserver *> observers;
     Data* data;
 
 };

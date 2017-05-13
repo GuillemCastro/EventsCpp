@@ -1,13 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EventsC__.dir/main.cpp.o"
   "CMakeFiles/EventsC__.dir/Application.cpp.o"
-  "CMakeFiles/EventsC__.dir/SensorReadEvent.cpp.o"
-  "CMakeFiles/EventsC__.dir/ParachuteFiredEvent.cpp.o"
+  "CMakeFiles/EventsC__.dir/Events/SensorReadEvent.cpp.o"
+  "CMakeFiles/EventsC__.dir/Events/ParachuteFiredEvent.cpp.o"
   "CMakeFiles/EventsC__.dir/Sensor.cpp.o"
   "CMakeFiles/EventsC__.dir/Rocket.cpp.o"
-  "CMakeFiles/EventsC__.dir/ParachuteFiredEventObserver.cpp.o"
   "CMakeFiles/EventsC__.dir/Data.cpp.o"
-  "CMakeFiles/EventsC__.dir/SensorReadEventObserver.cpp.o"
+  "CMakeFiles/EventsC__.dir/Observers/Observer.cpp.o"
+  "CMakeFiles/EventsC__.dir/Events/Event.cpp.o"
+  "CMakeFiles/EventsC__.dir/Observers/ObserverBase.cpp.o"
   "EventsC__.pdb"
   "EventsC__"
 )

@@ -6,9 +6,10 @@
 #define EVENTSC_APPLICATION_H
 
 
-#include "ParachuteFiredEventObserver.h"
+#include "Observers/Observer.h"
+#include "Events/ParachuteFiredEvent.h"
 
-class Application : ParachuteFiredEventObserver {
+class Application : Observer<ParachuteFiredEvent> {
 
 public:
 

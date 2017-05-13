@@ -8,19 +8,15 @@
 
 #include <vector>
 #include "Event.h"
-#include "ParachuteFiredEventObserver.h"
+#include "../Observers/Observer.h"
 
 
-class ParachuteFiredEvent {
+class ParachuteFiredEvent : public Event {
 
 public:
     ParachuteFiredEvent();
-    static void registerObserver(ParachuteFiredEventObserver* observer);
+    static void registerObserver(Observer<ParachuteFiredEvent>* observer);
     virtual void fire();
-
-private:
-    static std::vector<ParachuteFiredEventObserver*> observers;
-
 
 };
 

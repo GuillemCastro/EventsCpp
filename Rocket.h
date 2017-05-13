@@ -6,12 +6,11 @@
 #define EVENTSC_ROCKET_H
 
 
-#include "SensorReadEventObserver.h"
 #include "Data.h"
-#include "SensorReadEvent.h"
-#include "ParachuteFiredEvent.h"
+#include "Events/SensorReadEvent.h"
+#include "Events/ParachuteFiredEvent.h"
 
-class Rocket : public SensorReadEventObserver {
+class Rocket : public Observer<SensorReadEvent> {
 
 public:
 
